@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="jornadaUnicaApp">
+    <head>
+        <title>mapa-colombia</title>
+        <link rel="stylesheet" href="jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+
+        <script src="js/angular.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-jvectormap-2.0.3.min.js"></script>
+        <script src="js/jquery-jvectormap-co-mill.js"></script>
+
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <script src="js/jornadaUnicaController.js"></script>
+</head>
+
+    <body ng-controller="jornadaUnicaController">
+
+        <div id="map" style="height: 700px"></div>
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
