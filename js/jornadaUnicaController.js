@@ -27,7 +27,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
 
         $('#map').vectorMap({
             map: 'co_mill',
-            zoomMax: 2,
+            zoomMax: 5,
             markerStyle: {
                 initial: {
                     fill: '#FFFF00',
