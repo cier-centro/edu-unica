@@ -30,13 +30,13 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             zoomMax: 5,
             markerStyle: {
                 initial: {
-                    fill: '#FFFF00',
+                    fill: '#FAACAC',
                     stroke: 'grey',
                     "fill-opacity": 1,
                     "stroke-width": 1,
                     "stroke-opacity": 1,
-                    r: 4,
-                    image: 'img/map-marker.png'
+                    r: 5,
+                    //image: 'img/map-marker.png'
                 }
             },
             markers: markers,
