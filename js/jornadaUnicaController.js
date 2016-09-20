@@ -44,7 +44,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             onMarkerClick: function(event, index) {
                 var content = "";
 
-                content = "<table align='center' border='1'>";
+                content = "<table class='table-responsive' align='center' border='1'>";
                 content += "<tr>" + markers[index].etc + "</tr>";
 
                 content += "<tr>";
