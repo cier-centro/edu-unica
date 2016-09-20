@@ -7,7 +7,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
     var obj = {content: null};
 
-    $http.get('service/Resources/Base-jornada-unica.json').success(function(data) {
+    $http.get('http://52.37.84.217/edu-unica/service/Resources/Base-jornada-unica.json').success(function(data) {
         obj.content = data;
         angular.forEach(obj.content, function(entities) {
             markers.push({
