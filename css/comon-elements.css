@@ -170,3 +170,11 @@
 .site-jornada-unica .content .faq-accordion .views-row .ui-accordion-content-active {
 	padding: 20px 20px 0 !important;
 }
+
+.site-jornada-unica .content .faq-accordion .views-row {
+	margin-bottom: -2px;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row-last {
+	margin-bottom: 0;
+}
