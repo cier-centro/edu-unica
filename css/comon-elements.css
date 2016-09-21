@@ -1,0 +1,144 @@
+.content h1, .content h2, .content h3{
+	margin-bottom:30px;
+}
+.site-jornada-unica .content h1{
+	font-size:30px;
+	font-weight:normal;
+	color:#1F2B49;
+	padding-left:10px;
+}
+.site-jornada-unica .content h2{
+	font-size:26px;
+}
+.site-jornada-unica .content h3{
+	
+}
+.site-jornada-unica .content h4{
+	color:#1F2B49;
+}
+.site-jornada-unica .content p{
+	margin:0 15px 20px 15px!important;
+}
+.site-jornada-unica .content .callout{
+	margin:30px 10px 10px 10px;
+	display:inline-block;
+}
+.site-jornada-unica .content .callout p{
+    color: #767679;
+    padding: 5px 5px 15px 5px;
+    font-size: 23px;
+    border-top: 1px solid #B8B9BD;
+    border-bottom: 1px solid #B8B9BD;
+    text-align: center;
+    line-height: 29px;
+}
+.site-jornada-unica .content .callout p span{
+	font-size:36px;
+	line-height: 29px;
+	color: #767679;
+}
+.site-jornada-unica .content .section-content-ju ul li{
+	list-style: initial;
+}
+.site-jornada-unica .content .section-content-ju ul{
+	margin:0 60px 20px 60px!important;
+}
+.site-jornada-unica .content .table-responsive{
+	width:90%;
+	margin:auto;
+}
+.site-jornada-unica .content p .amplification{
+	
+}
+/****tablas****/
+.site-jornada-unica .content .table-responsive > thead > tr > th, .site-jornada-unica .content .table-responsive > tbody > tr > th,.site-jornada-unica .content .table-responsive > tfoot > tr > th,.site-jornada-unica .content .table-responsive > thead > tr > td,.site-jornada-unica .content .table-responsive > tbody > tr > td,.site-jornada-unica .content .table-responsive > tfoot > tr > td {
+  border:none;
+}
+.site-jornada-unica .content table>thead{
+  background: rgba(222, 222, 222,1);
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+}
+.site-jornada-unica .content table>thead>tr>th{
+  background: rgb(188,188,188);
+  background: -moz-linear-gradient(top,  rgba(47,64,117,1) 1%,rgba(13,33,88,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(47,64,117,1) 1%,rgba(13,33,88,1) 100%);
+  background: linear-gradient(to bottom,  rgba(47,64,117,1) 1%,rgba(13,33,88,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#dedede',GradientType=0 );
+}
+.site-jornada-unica .content table>thead>tr>th:first-child{color:rgba(255,255,255,0);}
+.site-jornada-unica .content table thead th a, table thead th a:hover,
+.site-jornada-unica .content table thead th, .site-jornada-unica .content table thead th:hover {
+  text-decoration: none;
+  color:white;
+  text-shadow: none;
+}
+.site-jornada-unica .content table>thead>tr>th:first-child{border-radius: 10px 0px 0px 0px;-moz-border-radius: 10px 0px 0px 0px;-webkit-border-radius: 10px 0px 0px 0px;}
+.site-jornada-unica .content table>thead>tr>th:last-child{border-radius: 0px 10px 0px 0px;-moz-border-radius:  0px 10px 0px 0px;-webkit-border-radius:  0px 10px 0px 0px;}
+.site-jornada-unica .content .table-responsive{border: 0px solid rgba(110,114,118,1);}
+.site-jornada-unica .content .table-responsive > thead > tr > th,.site-jornada-unica .content .table-responsive > thead > tr > td{border-right: 1px solid rgba(110,114,118,0.2);}
+.site-jornada-unica .content .table-responsive > tbody > tr > th,.site-jornada-unica .content .table-responsive > tfoot > tr > th,.site-jornada-unica .content .table-responsive > tbody > tr > td,.site-jornada-unica .content .table-responsive > tfoot > tr > td {
+  border-right: 1px solid rgba(110,114,118,0.2);
+}
+.site-jornada-unica .content .table-responsive > thead > tr > th:first-child,.site-jornada-unica .content .table-responsive > thead > tr > td:first-child{color:#ffffff;}
+.site-jornada-unica .content .table-responsive > tbody > tr > th:first-child,.site-jornada-unica .content .table-responsive > tfoot > tr > th:first-child, .content .table-responsive > tbody > tr > td:first-child, .content .table-responsive > tfoot > tr > td:first-child {
+  border-left: none;
+  text-align: left;
+}
+.site-jornada-unica .content .table-responsive > tbody > tr > th:last-child,.site-jornada-unica .content .table-responsive > tfoot > tr > th:last-child, .site-jornada-unica .content .table-responsive > tbody > tr > td:last-child, .site-jornada-unica .content .table-responsive > tfoot > tr > td:last-child,.site-jornada-unica .content .table-responsive > thead > tr > th:last-child, .table-responsive > thead > tr > td:last-child {
+  text-align: left;
+  border-right: none;
+}
+.site-jornada-unica .content .table-responsive tbody tr:nth-child(odd){
+  background: #f0f2f6;
+}
+.site-jornada-unica .content .table-responsive tbody tr:nth-child(even){
+  background: #f8f9fb;
+}
+.site-jornada-unica .content .table-responsive tbody tr:hover{
+	background: #EB9FA7;
+  	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+}
+.site-jornada-unica .content .table-responsive tbody tr:hover th, .table-responsive tbody tr:hover td{
+	color:#ffffff;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+}
+.site-jornada-unica .content .table-responsive tbody tr{
+  border-bottom: none;
+}
+.site-jornada-unica .content .table-responsive thead tr:last-child{
+  background: #243268;
+  border-bottom: solid 1px rgba(110,114,118,0.5);
+}
+.site-jornada-unica .content .table-responsive tbody tr td:last-child{
+  min-width:100px;
+}
+.site-jornada-unica .content .table-responsive td > input {
+  background: #535d87;
+  border: 1px solid #04143b;
+}
+.site-jornada-unica .content .table-responsive td > a {
+  color: #243268;
+  display: inline-block;
+}
+.site-jornada-unica .content .table-responsive table tr th{
+  text-shadow:none;
+}
+.site-jornada-unica .content tfoot tr td:last-child {border-right: none;}
+.site-jornada-unica .content thead th{padding:4px 3px 4px 3px;}
+.site-jornada-unica .content tbody td{padding:2px 3px 2px 3px;}
+.site-jornada-unica .content tfoot td{padding:3px 3px 3px 3px;}
+/*.site-jornada-unica .content .pagination{margin:0 0 5px 0;}
+.site-jornada-unica .content .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+background: rgba(138,153,184,1);
+}*/
+
