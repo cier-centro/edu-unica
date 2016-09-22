@@ -273,9 +273,11 @@
 .site-jornada-unica .content .section-content-ju .btn-media:hover{
 	background-color:#ececec;
 }
-.site-jornada-unica .content .documents-container{
-	border-top:1px solid #8E8E8E;
+.site-jornada-unica .content .documents-container{	
 	border-bottom:1px solid #8E8E8E;
+}
+.site-jornada-unica .content .documents-container:firs-child{	
+	border-top:1px solid #8E8E8E;
 }
 .site-jornada-unica .content .documents-container a{
 	display:inline-block;
