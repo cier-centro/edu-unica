@@ -11,7 +11,8 @@
 	font-size:26px;
 }
 .site-jornada-unica .content h3{
-	
+	font-size:22px;
+	padding-left:14px;
 }
 .site-jornada-unica .content h4{
 	color:#1F2B49;
@@ -48,7 +49,7 @@
 	margin:auto;
 }
 .site-jornada-unica .content p .amplification{
-	
+
 }
 /****tablas****/
 .site-jornada-unica .content .table-responsive > thead > tr > th, .site-jornada-unica .content .table-responsive > tbody > tr > th,.site-jornada-unica .content .table-responsive > tfoot > tr > th,.site-jornada-unica .content .table-responsive > thead > tr > td,.site-jornada-unica .content .table-responsive > tbody > tr > td,.site-jornada-unica .content .table-responsive > tfoot > tr > td {
@@ -137,8 +138,94 @@
 .site-jornada-unica .content thead th{padding:4px 3px 4px 3px;}
 .site-jornada-unica .content tbody td{padding:2px 3px 2px 3px;}
 .site-jornada-unica .content tfoot td{padding:3px 3px 3px 3px;}
-/*.site-jornada-unica .content .pagination{margin:0 0 5px 0;}
-.site-jornada-unica .content .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
-background: rgba(138,153,184,1);
-}*/
 
+.site-jornada-unica .content .faq-accordion .views-row > div {
+	border: 1px solid #909090;
+	border-radius: 0;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row > div:first-child {
+	background: #eff1f5;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row .ui-accordion-header {
+	margin-top: 0;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row > div:first-child a {
+  text-align: left;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row .ui-state-active {
+	font-weight: 700;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row .ui-state-default {
+	font-weight: 500;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row > div:first-child span {
+  color: #122747;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row .ui-accordion-content-active {
+	padding: 20px 20px 0 !important;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row {
+	margin-bottom: -2px;
+}
+
+.site-jornada-unica .content .faq-accordion .views-row-last {
+	margin-bottom: 0;
+}
+
+.site-jornada-unica .content .pager li > a {
+	padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: white;
+	font-weight: bold;
+	color: black;
+}
+
+.site-jornada-unica .content .pager .pager-current {
+	background-color: white;
+	color: red;
+	width: 40px;
+}
+
+.site-jornada-unica .content .pager .pager-first a,
+.site-jornada-unica .content .pager .pager-previous a,
+.site-jornada-unica .content .pager .pager-next a,
+.site-jornada-unica .content .pager .pager-last a {
+	background: url(../images/pager-spritesheet.png);
+}
+
+.site-jornada-unica .content .pager .pager-first a {
+	background-position: 3px -20px;
+}
+
+.site-jornada-unica .content .pager .pager-previous a {
+	background-position: 3px 3px;
+}
+
+.site-jornada-unica .content .pager .pager-next a {
+	background-position: -20px 4px;
+}
+
+.site-jornada-unica .content .pager .pager-last a {
+	background-position: -21px -20px;
+}
+
+.pager-previous + .pager-item:before, .pager-item + .pager-current:before,
+.pager-current + .pager-item:before, .pager-item + .pager-item:before,
+.pager-item + .pager-next:before {
+    content: " | ";
+		color: black;
+		font-weight: bold;
+}
+
+.pager-item + .pager-current:before {
+	padding-right: 7px;
+}
