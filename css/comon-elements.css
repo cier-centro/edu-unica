@@ -211,7 +211,7 @@
 }
 
 .site-jornada-unica .content .pager .pager-next a {
-	background-position: -20px 4px;
+	background-position: -20px 3px;
 }
 
 .site-jornada-unica .content .pager .pager-last a {
@@ -228,4 +228,23 @@
 
 .pager-item + .pager-current:before {
 	padding-right: 7px;
+}
+
+.site-jornada-unica .content .btn-pdf-file {
+	background: #cdced0;
+	border: 1px solid #818181;
+}
+
+.site-jornada-unica .content .btn-pdf-file label {
+	color: #818181;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.site-jornada-unica .content .pdf-file-icon {
+	background: url(../images/pdf-icons.png);
+	height: 54px;
+  width: 42px;
+  display: block;
+	float: right;
 }
