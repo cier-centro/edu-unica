@@ -288,6 +288,9 @@
     color: #0e0e0e;
 	margin: 0 15px;
 }
+.site-jornada-unica .content .documents-container a label{
+    margin-bottom: 0px;
+}
 .site-jornada-unica .content .documents-container .btn-download{
 	float:right;
 }
