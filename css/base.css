@@ -275,12 +275,21 @@
 }
 .site-jornada-unica .content .documents-container{	
 	border-bottom:1px solid #8E8E8E;
+    margin: 0 15px;
 }
-.site-jornada-unica .content .documents-container:firs-child{	
+.site-jornada-unica .content .documents-container:first-child{	
 	border-top:1px solid #8E8E8E;
 }
 .site-jornada-unica .content .documents-container a{
 	display:inline-block;
+	text-decoration:none;
+    display: inline-block;
+    line-height: 30px;
+    color: #0e0e0e;
+	margin-left:15px;
+}
+.site-jornada-unica .content .documents-container .btn-download{
+	float:right;
 }
 
 @media (max-width: 1000px){
