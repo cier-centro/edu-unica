@@ -290,9 +290,9 @@
 		box-sizing:border-box;
 	}
 }
+
 @media (max-width: 850px){
 	.site-jornada-unica .main-menu-single-day > .pane-content > ul > li{
 		width:100%!important;
 	}
 }
-
