@@ -231,20 +231,44 @@
 }
 
 .site-jornada-unica .content .btn-pdf-file {
-	background: #cdced0;
+	background: #ededed;
 	border: 1px solid #818181;
 }
 
+.site-jornada-unica .content .btn-pdf-file:hover {
+    background: #cdced0;
+}
+
+.site-jornada-unica .content .btn-page-link label,
 .site-jornada-unica .content .btn-pdf-file label {
-	color: #818181;
 	font-size: 20px;
 	font-weight: 500;
 }
 
+.site-jornada-unica .content .btn-pdf-file label {
+	color: #818181;
+	padding-top: 3px;
+}
+
 .site-jornada-unica .content .pdf-file-icon {
 	background: url(../images/pdf-icons.png);
-	height: 54px;
-  width: 42px;
+	height: 36px;
+  width: 28px;
   display: block;
 	float: right;
+}
+
+.site-jornada-unica .content .btn-page-link {
+	background: #ee0029;
+	border: 1px solid #c00025;
+	white-space: pre-line;
+}
+
+.site-jornada-unica .content .btn-page-link:hover {
+    background: #122747;
+}
+
+.site-jornada-unica .content .btn-page-link label {
+	white-space: pre-line;
+	color: white;
 }
