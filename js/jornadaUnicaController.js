@@ -72,7 +72,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                         "CO-PUT": '#4B77B2',
                         "CO-GUA": '#2A5593',
                         "CO-HUI": '#3A66A3',
-                        
+                        "CO-NAR": '#2A5593',
                         
                         
                         "CO-RIS": '#FFFFFF',
@@ -83,7 +83,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                             
                         "CO-QUI": '#FFFFFF',
                         
-                        "CO-NAR": '#FFFFFF',
+                        
                         
                         
                     },
