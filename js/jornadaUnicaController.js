@@ -45,7 +45,8 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             series: {
                 regions: [{
                     values: {
-                        "CO-GUA": '#4B77B2',
+                        "CO-SAP": '#3A66A3',
+                        "CO-LAG": '#4B77B2',
                         "CO-MAG": '#1C477A',
                         "CO-ATL": '#2A5593',
                         "CO-CES": '#3A66A3',
@@ -69,15 +70,19 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                         "CO-VAC": '#3A66A3',
                         "CO-DC": '#2A5593',
                         "CO-PUT": '#4B77B2',
+                        "CO-GUA": '#2A5593',
+                        "CO-HUI": '#3A66A3',
                         
-                        "CO-HUI": '#FFFFFF',
+                        
+                        
                         "CO-RIS": '#FFFFFF',
                         "CO-CUN": '#FFFFFF',
                         "CO-CAU": '#FFFFFF',
                         "CO-CAQ": '#FFFFFF',
-                        "CO-SAP": '#FFFFFF',
+                        
+                            
                         "CO-QUI": '#FFFFFF',
-                        "CO-LAG": '#FFFFFF',
+                        
                         "CO-NAR": '#FFFFFF',
                         
                         
