@@ -30,7 +30,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             zoomMax: 5,
             markerStyle: {
                 initial: {
-                    fill: '#CF1024',
+                    fill: '#FFFFFF',
                     stroke: 'grey',
                     "fill-opacity": 1,
                     "stroke-width": 1,
@@ -41,6 +41,50 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             },
             markers: markers,
             backgroundColor: '#F1EBE6',
+            
+            series: {
+                regions: [{
+                    values: {
+                        "CO-GUA": '#4B77B2',
+                        "CO-MAG": '#1C477A',
+                        "CO-ATL": '#2A5593',
+                        "CO-CES": '#3A66A3',
+                        "CO-BOL": '#4B77B2',
+                        "CO-SUC": '#3A66A3',
+                        "CO-COR": '#1C477A',
+                        "CO-ANT": '#5783BA',
+                        "CO-SAN": '#2A5593',
+                        "CO-NSA": '#5783BA',
+                        "CO-CHO": '#4B77B2',
+                        "CO-ARA": '#1C477A',
+                        "CO-VID": '#5783BA',
+                        "CO-GUV": '#2A5593',
+                        "CO-CAS": '#3A66A3',
+                        "CO-MET": '#1C477A',
+                        "CO-VAU": '#3A66A3',
+                        "CO-AMA": '#1C477A',
+                        "CO-CAL": '#3A66A3',
+                        "CO-TOL": '#4B77B2',
+                        "CO-BOY": '#4B77B2',
+                        "CO-VAC": '#3A66A3',
+                        "CO-DC": '#2A5593',
+                        "CO-PUT": '#4B77B2',
+                        
+                        "CO-HUI": '#FFFFFF',
+                        "CO-RIS": '#FFFFFF',
+                        "CO-CUN": '#FFFFFF',
+                        "CO-CAU": '#FFFFFF',
+                        "CO-CAQ": '#FFFFFF',
+                        "CO-SAP": '#FFFFFF',
+                        "CO-QUI": '#FFFFFF',
+                        "CO-LAG": '#FFFFFF',
+                        "CO-NAR": '#FFFFFF',
+                        
+                        
+                    },
+                 }],
+             },
+            
             onMarkerClick: function(event, index) {
                 var content = "";
 
