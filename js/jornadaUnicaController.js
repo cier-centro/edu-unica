@@ -87,7 +87,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             onMarkerClick: function(event, index) {
                 var content = "";
 
-                content = "<p class='title-modal'>" + markers[index].etc + "</p>";
+                content = "<p class='title-modal'><span></span>" + markers[index].etc + "</p>";
                 
                 content += "<table class='table-responsive' align='center' border='1'>";
                 
