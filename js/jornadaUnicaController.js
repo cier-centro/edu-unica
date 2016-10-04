@@ -87,9 +87,10 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             onMarkerClick: function(event, index) {
                 var content = "";
 
-                content = "<table class='table-responsive' align='center' border='1'>";
-                content += "<tr><td>" + markers[index].etc + "</td></tr>";
-
+                content = "<p class='title-modal'>" + markers[index].etc + "</p>";
+                
+                content += "<table class='table-responsive' align='center' border='1'>";
+                
                 content += "<tr>";
                 content += "<td>Establecimientos Educativos en Jornada \u00danica  (Fase 1-4)</td>";
                 content += "<td>" + markers[index].establecimientosEducativos + "</td>";
