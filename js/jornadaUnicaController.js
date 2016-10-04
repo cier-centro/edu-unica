@@ -74,17 +74,11 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                         "CO-HUI": '#3A66A3',
                         "CO-NAR": '#2A5593',
                         
-                        
-                        "CO-RIS": '#FFFFFF',
-                        "CO-CUN": '#FFFFFF',
-                        "CO-CAU": '#FFFFFF',
-                        "CO-CAQ": '#FFFFFF',
-                        
-                            
-                        "CO-QUI": '#FFFFFF',
-                        
-                        
-                        
+                        "CO-RIS": '#3A66A3',
+                        "CO-CUN": '#3A66A3',
+                        "CO-CAU": '#3A66A3',
+                        "CO-CAQ": '#3A66A3',
+                        "CO-QUI": '#3A66A3',
                         
                     },
                  }],
