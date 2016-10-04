@@ -282,6 +282,43 @@
     margin: auto;
 }
 
+.site-jornada-unica .content .modal-content .title-modal span{
+    background: url(https://dl.dropboxusercontent.com/u/575652037/edu-unica/images/marker.png);
+    width: 24px;
+    height: 32px;
+    display: inline-block;
+    margin: -9px 5px;
+    margin-left: 0px;
+}
+
+.site-jornada-unica .content .modal-content .title-modal{
+    color: #B61024;
+    font-weight: bold;
+}  
+
+.site-jornada-unica .content .modal-content .modal-header {
+    padding: 0px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.site-jornada-unica .content .modal-content .modal-header button.close {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+
+.site-jornada-unica .content .modal-content .modal-header .close {
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #B61024;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 0.8;
+}
+
 @media (min-width: 768px){
     .site-jornada-unica .content .modal-dialog {
         width: 600px;
