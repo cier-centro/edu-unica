@@ -88,7 +88,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 var content = "";
 
                 content = "<table class='table-responsive' align='center' border='1'>";
-                content += "<tr>" + markers[index].etc + "</tr>";
+                content += "<tr><td>" + markers[index].etc + "</td></tr>";
 
                 content += "<tr>";
                 content += "<td>Establecimientos Educativos en Jornada \u00danica  (Fase 1-4)</td>";
