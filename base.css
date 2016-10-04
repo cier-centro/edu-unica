@@ -1,3 +1,71 @@
+.site-jornada-unica .main_container{
+	background: url('https://dl.dropboxusercontent.com/u/575652037/edu-unica/images/background-j-unica.png') #B5D7F2 repeat-x;
+}
+.site-jornada-unica .breadcrumb{
+	    /*overflow: visible;
+    width: 100%;
+    height: 0px;
+    margin-left: -20px;
+    padding: 0 20px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    box-sizing: border-box;
+    z-index: 100;
+    position: absolute;*/
+	display:none;
+}
+.site-jornada-unica .title{
+    display: none;
+}
 #menu-jornada-unica{
-	    background-color: #1F2B49 !important;
+	background-color: #1F2B49 !important;
+}
+.site-jornada-unica #microsite_panel .pane-menu, .site-jornada-unica #microsite_panel .pane-menu > div .menu{
+	background-color: #1F2B49 !important;
+}
+.site-jornada-unica .main-menu-single-day li a{
+	padding-bottom: 11px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    border: none !important;
+    text-transform: inherit;
+	padding: 10px 16px 10px 16px !important;
+}
+.main-menu-single-day .pane-content ul li a{
+	background:none;
+}
+.main-menu-single-day .pane-content ul li a:hover{
+	text-decoration:none;
+}
+.main-menu-single-day > .pane-content > ul > li:first-child{
+	width:20%;
+}
+.main-menu-single-day > .pane-content > ul > li:nth-child(2){
+	width:24%;
+}
+.main-menu-single-day > .pane-content > ul > li:nth-child(3){
+	width:22%;
+}
+.main-menu-single-day > .pane-content > ul > li:nth-child(4){
+	width:18%;
+}
+.main-menu-single-day > .pane-content > ul > li:last-child{
+	padding-top: 9px;
+	width:16%;
+}
+.main-menu-single-day .pane-content ul li a .children_menu:first-child{
+	
+}
+.site-jornada-unica .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu:hover{
+	height:inherit;
+}
+.site-jornada-unica #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu:hover{
+	height:inherit;
 }
