@@ -159,7 +159,7 @@
 	transition: all 0.5s ease;
 }
 .site-jornada-unica .option-menu label .icon, .site-jornada-unica .eye-class .option-menu .icons{	
-	background: url("../icons-jornada-unica.png") no-repeat;
+	background: url("../images/icons-jornada-unica.png") no-repeat;
 }
 .site-jornada-unica .option-menu label .icon-contact,.site-jornada-unica .option-menu label .icon-foro{
 	float:right;
