@@ -3,7 +3,7 @@
 	min-height: 860px;
 }
 .site-jornada-unica .main_container{
-	background: url('../edu-unica/images/background-j-unica.png') #B5D7F2 repeat-x;
+	background: url('../images/background-j-unica.png') #B5D7F2 repeat-x;
 }
 .site-jornada-unica .breadcrumb{
 	display:none;
@@ -104,12 +104,12 @@
 .site-jornada-unica #jornada_unica_home_slider .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("../edu-unica/images/slider-btn-back.png") no-repeat center center / contain;
+		background: url("../images/slider-btn-back.png") no-repeat center center / contain;
 }
 .site-jornada-unica #jornada_unica_home_slider .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("../edu-unica/images/slider-btn-next.png") no-repeat center center / contain;
+		background: url("../images/slider-btn-next.png") no-repeat center center / contain;
 }
 .site-jornada-unica #jornada_unica_home_slider{
     margin: -20px 0 10px 0;	
@@ -159,7 +159,7 @@
 	transition: all 0.5s ease;
 }
 .site-jornada-unica .option-menu label .icon, .site-jornada-unica .eye-class .option-menu .icons{	
-	background: url("../images/icons-jornada-unica.png") no-repeat;
+	background: url("../icons-jornada-unica.png") no-repeat;
 }
 .site-jornada-unica .option-menu label .icon-contact,.site-jornada-unica .option-menu label .icon-foro{
 	float:right;
