@@ -3,7 +3,7 @@
 	min-height: 860px;
 }
 .site-jornada-unica .main_container{
-	background: url('https://dl.dropboxusercontent.com/u/575652037/edu-unica/images/background-j-unica.png') #B5D7F2 repeat-x;
+	background: url('../edu-unica/images/background-j-unica.png') #B5D7F2 repeat-x;
 }
 .site-jornada-unica .breadcrumb{
 	display:none;
@@ -104,12 +104,12 @@
 .site-jornada-unica #jornada_unica_home_slider .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/edu-unica/images/slider-btn-back.png") no-repeat center center / contain;
+		background: url("../edu-unica/images/slider-btn-back.png") no-repeat center center / contain;
 }
 .site-jornada-unica #jornada_unica_home_slider .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/edu-unica/images/slider-btn-next.png") no-repeat center center / contain;
+		background: url("../edu-unica/images/slider-btn-next.png") no-repeat center center / contain;
 }
 .site-jornada-unica #jornada_unica_home_slider{
     margin: -20px 0 10px 0;	
