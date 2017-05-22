@@ -324,3 +324,52 @@
 		width:100%!important;
 	}
 }
+
+/* Download buttons*/
+a.btn-block{
+	white-space: inherit;
+    display: block;
+    width: 98%;
+    margin: 0px 1%;
+}
+
+a.btn.btn-danger.btn-block.btn-download {
+    text-align: initial;
+}
+
+/*Benefits icons*/
+/*
+div#benefitSection {
+    border: 1px solid rgb(130,130,130);
+    border-radius: 10px;
+    padding: 1%;
+    min-height: 250px;
+    margin: 10px;
+}
+*/
+.icons {
+    min-height: 100px;
+    max-height: 100px
+    background: url(http://52.37.84.217/edu-unica/images/spritesheet-icons.png) no-repeat;
+    max-width: 100px;
+}
+
+div#icon1 {
+    background-position: 0px -120px;
+}
+
+div#icon2 {
+    background-position: -105px -120px;
+}
+
+div#icon3 {
+    background-position: 0px -235px;
+}
+
+div#icon4 {
+    background-position: -100px -235px;
+}
+
+div#icon5 {
+    background-position: -210px -235px;
+}
