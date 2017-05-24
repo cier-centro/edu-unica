@@ -6,7 +6,7 @@ var app = angular.module("jornadaUnicaApp", []);
 app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
     var obj = {content: null};
-
+    console.log("entro");
     $http.get('service/Resources/Base-jornada-unica.json').success(function(data) {
         obj.content = data;
         angular.forEach(obj.content, function(entities) {
@@ -23,7 +23,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "totalMatricula": entities.totalMatricula,
                 "materialEntregado": entities.materialEntregado
             });
+            console.log("entro al forEach");
         });
+
 
         $('#map').vectorMap({
             map: 'co_mill',
@@ -41,7 +43,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             },
             markers: markers,
             backgroundColor: '#F1EBE6',
-            
+
             series: {
                 regions: [{
                     values: {
@@ -73,24 +75,24 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                         "CO-GUA": '#2A5593',
                         "CO-HUI": '#3A66A3',
                         "CO-NAR": '#2A5593',
-                        
+
                         "CO-RIS": '#3A66A3',
                         "CO-CUN": '#3A66A3',
                         "CO-CAU": '#3A66A3',
                         "CO-CAQ": '#3A66A3',
                         "CO-QUI": '#3A66A3',
-                        
+
                     },
                  }],
              },
-            
+
             onMarkerClick: function(event, index) {
                 var content = "";
 
                 content = "<p class='title-modal'><span></span>" + markers[index].etc + "</p>";
-                
+
                 content += "<table class='table-responsive' align='center' border='1'>";
-                
+
                 content += "<tr>";
                 content += "<td>Establecimientos Educativos en Jornada \u00danica  (Fase 1-4)</td>";
                 content += "<td>" + markers[index].establecimientosEducativos + "</td>";
