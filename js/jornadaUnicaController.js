@@ -6,7 +6,6 @@ var app = angular.module("jornadaUnicaApp", []);
 app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
     var obj = {content: null};
-    console.log("entro");
     $http.get('service/Resources/Base-jornada-unica.json').success(function(data) {
         obj.content = data;
         angular.forEach(obj.content, function(entities) {
@@ -23,11 +22,11 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "totalMatricula": entities.totalMatricula,
                 "materialEntregado": entities.materialEntregado
             });
-            console.log("entro al forEach");
         });
 
 
         $('#map').vectorMap({
+            console.log("si entro los puntos");
             map: 'co_mill',
             zoomMax: 5,
             markerStyle: {
@@ -85,7 +84,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                     },
                  }],
              },
-
+             console.log(markers.lenght);
             onMarkerClick: function(event, index) {
                 var content = "";
 
