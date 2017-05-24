@@ -379,6 +379,10 @@ div#icon6 {
     background-position: -110px -120px;
 }
 
+.grid p {
+    text-align: justify;
+}
+
 /*----*/
 a#pedagogical {
     min-height: 100px;
@@ -392,4 +396,21 @@ table.table.table-bordered > thead>tr>td {
     background: #243268;
     color: white;
     font-weight: bold;
+}
+
+.site-jornada-unica .content ol li {
+    list-style-type: decimal;
+    margin-left: 60px;
+}
+inspector-stylesheet:3
+.site-jornada-unica .content ol {
+    list-style-type: circle !important;
+}
+
+.site-jornada-unica .content a.btn.btn-primary.btn-lg.warning {
+    margin: 20px;
+}
+
+.site-jornada-unica .content div#btn-primary {
+    text-align: center;
 }
