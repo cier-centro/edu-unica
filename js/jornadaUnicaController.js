@@ -23,10 +23,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "materialEntregado": entities.materialEntregado
             });
         });
-
+        console.log(markers.lenght);
 
         $('#map').vectorMap({
-            console.log("si entro los puntos");
             map: 'co_mill',
             zoomMax: 5,
             markerStyle: {
@@ -84,7 +83,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                     },
                  }],
              },
-             console.log(markers.lenght);
+
             onMarkerClick: function(event, index) {
                 var content = "";
 
