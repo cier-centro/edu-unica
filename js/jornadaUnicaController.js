@@ -1,6 +1,7 @@
 var app = "";
 
 var markers = [];
+var counter=0;
 var app = angular.module("jornadaUnicaApp", []);
 
 app.controller('jornadaUnicaController', function($scope, $http) {
@@ -22,8 +23,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "totalMatricula": entities.totalMatricula,
                 "materialEntregado": entities.materialEntregado
             });
+            counter++;
         });
-        console.log(markers.lenght);
+console.log(counter);
 
         $('#map').vectorMap({
             map: 'co_mill',
