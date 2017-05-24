@@ -25,8 +25,8 @@ app.controller('jornadaUnicaController', function($scope, $http) {
         });
 
         angular.forEach(obj.content, function(entities) {
-          console.log(entities.coordenadaX);
-          console.log(entities.coordenadaY);
+          console.log(entities);
+          console.log(entities);
         });
 
         $('#map').vectorMap({
