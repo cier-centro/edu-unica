@@ -1241,7 +1241,7 @@ var jsonData=[
 
 
 
-/*-------------------------------------------------------*/ 
+/*-------------------------------------------------------*/
 var markers = [];
 var app = angular.module("jornadaUnicaApp", []);
 
@@ -1265,7 +1265,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "totalMatricula": entities.totalMatricula,
                 "materialEntregado": entities.materialEntregado
             });
-      //  });
+       });
 
         //console.log(markers);
         //angular.forEach(obj.content, function(entities) {
@@ -1366,5 +1366,5 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             },
         });
 
-    });
+  //  });
 });
