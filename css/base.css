@@ -414,3 +414,7 @@ inspector-stylesheet:3
 .site-jornada-unica .content div#btn-primary {
     text-align: center;
 }
+
+#microsite_panel .menu .children_menu {
+    margin-left: 0px !important;
+}
