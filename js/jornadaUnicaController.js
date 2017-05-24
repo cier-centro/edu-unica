@@ -24,10 +24,11 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             });
         });
 
-        angular.forEach(obj.content, function(entities) {
-          console.log(entities);
-          console.log(entities);
-        });
+        console.log(markers);
+        //angular.forEach(obj.content, function(entities) {
+        //  console.log(entities);
+        //  console.log(entities);
+        //});
 
         $('#map').vectorMap({
             map: 'co_mill',
