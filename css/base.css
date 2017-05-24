@@ -112,7 +112,7 @@
 		background: url("../images/slider-btn-next.png") no-repeat center center / contain;
 }
 .site-jornada-unica #jornada_unica_home_slider{
-    margin: -20px 0 10px 0;	
+    margin: -20px 0 10px 0;
 }
 .site-jornada-unica #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
@@ -158,7 +158,7 @@
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-.site-jornada-unica .option-menu label .icon, .site-jornada-unica .eye-class .option-menu .icons{	
+.site-jornada-unica .option-menu label .icon, .site-jornada-unica .eye-class .option-menu .icons{
 	background: url("../images/icons-jornada-unica.png") no-repeat;
 }
 .site-jornada-unica .option-menu label .icon-contact,.site-jornada-unica .option-menu label .icon-foro{
@@ -230,7 +230,7 @@
 	font-weight:bold;
 }
 .site-jornada-unica .eye-class .option-menu label{
-	font-weight:normal;	
+	font-weight:normal;
 }
 .site-jornada-unica .eye-class .contact-labels-group{
 	display:inline-block;
@@ -249,15 +249,16 @@
 .site-jornada-unica .eye-class .option-menu .phone-icon{
 	background-position: 0px -119px;
 }
-.site-jornada-unica .btn-media{
+div#marco-legal {
 	border: 1px solid #1F2B49;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
-	width:50%;
-	margin:10px auto;
-	display:block;
-	padding:10px;
+	width: 90%;
+	margin: 10px 5%;
+	display: block;
+	padding: 10px;
+}
+
+.site-jornada-unica .btn-media{
 	text-align:left;
 	text-decoration:none;
 }
@@ -273,11 +274,11 @@
 .site-jornada-unica .content .section-content-ju .btn-media:hover{
 	background-color:#ececec;
 }
-.site-jornada-unica .content .documents-container{	
+.site-jornada-unica .content .documents-container{
 	border-bottom:1px solid #8E8E8E;
     margin: 0 15px;
 }
-.site-jornada-unica .content .documents-container:first-child {	
+.site-jornada-unica .content .documents-container:first-child {
 	border-top:1px solid #8E8E8E!important;
 }
 .site-jornada-unica .content .documents-container a{
