@@ -24,8 +24,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "materialEntregado": entities.materialEntregado
             });
             counter++;
+            console.log("x: "markers[counter].coordenadaX+"y:"+markers[counter].coordenadaY);
         });
-console.log(counter);
+
 
         $('#map').vectorMap({
             map: 'co_mill',
