@@ -6,8 +6,8 @@ var app = angular.module("jornadaUnicaApp", []);
 app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
     var obj = {content: null};
-    $http.get('service/Resources/Base-jornada-unica.json').success(function(data) {
-        obj.content = JSON.parse(data);
+    $http.get('http://52.37.84.217/edu-unica/service/Resources/Base-jornada-unica.json').success(function(data) {
+        obj.content = data;
         angular.forEach(obj.content, function(entities) {
             markers.push({
                 "latLng": [parseFloat(entities.coordenadaX), parseFloat(entities.coordenadaY)],
@@ -24,7 +24,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             });
         });
 
-        console.log(markers);
+        //console.log(markers);
         //angular.forEach(obj.content, function(entities) {
         //  console.log(entities);
         //  console.log(entities);
