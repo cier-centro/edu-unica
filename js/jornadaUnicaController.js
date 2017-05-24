@@ -7,7 +7,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
     var obj = {content: null};
     $http.get('service/Resources/Base-jornada-unica.json').success(function(data) {
-        obj.content = data;
+        obj.content = JSON.parse(data);
         angular.forEach(obj.content, function(entities) {
             markers.push({
                 "latLng": [parseFloat(entities.coordenadaX), parseFloat(entities.coordenadaY)],
