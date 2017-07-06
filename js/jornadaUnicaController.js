@@ -1,6 +1,5 @@
 var app = "";
-var jsonData=[ 
-{ 
+var jsonData=[ { 
  "etc": " AMAZONAS",
 "establecimientosEducativos":1,
 "sedesEducativas":1,
