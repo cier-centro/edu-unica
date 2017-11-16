@@ -351,7 +351,7 @@ div#benefitSection {
 .icons {
     min-height: 100px;
     max-height: 100px;
-    background: url(http://52.37.84.217/edu-unica/images/spritesheet-icons.png) no-repeat;
+    background: url("../images/spritesheet-icons.png") no-repeat;
     max-width: 100px;
 }
 
